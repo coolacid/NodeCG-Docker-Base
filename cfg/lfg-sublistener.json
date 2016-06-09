@@ -1,0 +1,13 @@
+{
+    "tmi.js": {
+        "connection": {
+            "reconnect": true
+        },
+        "identity": {
+            "username": "user",
+            "password": "oauth"
+        },
+        "channels": ["coolacid"]
+    },
+    "chatevents": false
+}

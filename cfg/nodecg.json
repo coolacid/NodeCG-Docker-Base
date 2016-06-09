@@ -1,0 +1,47 @@
+{
+    "host": "localhost",
+    "port": 3000,
+    "login": {
+        "enabled": false,
+        "sessionSecret": "SomeSession",
+        "steam": {
+            "enabled": false,
+            "apiKey": "YYYYY",
+            "allowedIds": [
+                "11111111111111111",
+                "22222222222222222"
+            ]
+        },
+        "twitch": {
+            "enabled": true,
+            "clientID": "CLIENTID",
+            "clientSecret": "CLIENTID",
+            "scope": "user_read",
+            "allowedUsernames": [
+                "coolacid"
+            ]
+        }
+    },
+    "logging": {
+        "replicants": false,
+        "console": {
+            "enabled": true,
+            "level": "trace"
+        },
+        "file": {
+            "enabled": true,
+            "path": "logs/server.log",
+            "level": "info"
+        }
+    },
+    "ssl": {
+        "enabled": false,
+        "keyPath": "",
+        "certificatePath": ""
+    },
+    "autodeps": {
+        "npm": false,
+        "bower": false
+    },
+    "developer": false
+}
